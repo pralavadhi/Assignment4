@@ -1,4 +1,4 @@
-// Dynamically add student information
+// Dynamically adds student information
 document.addEventListener("DOMContentLoaded", function() {
     var studentInfo = document.getElementById("student-info");
     studentInfo.innerHTML = "<p>Student ID: 1235300</p><p>Name: Pralav Adhikari</p>";
@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetchBestSellers();
 });
 
-// Fetch best sellers lists from New York Times Books API
+// Now fetch best sellers lists from New York Times Books API
 function fetchBestSellers() {
     const apiKey = "vnGIrbPJH4bL7wbyABtr5R8ve7npAQaY";
     const apiUrl = "https://api.nytimes.com/svc/books/v3/lists/2024-01-01/hardcover-fiction.json?api-key=" + apiKey;
@@ -26,12 +26,12 @@ function fetchBestSellers() {
         });
 }
 
-// Display best sellers list on the webpage
+// Now function to display best sellers list on the webpage
 function displayBestSellers(lists) {
     var bestSellersList = document.getElementById("best-sellers-list");
     bestSellersList.innerHTML = "";
 
-    // Check if lists is an object
+    // Now Check if lists is an object
     if (typeof lists === 'object' && lists !== null) {
         var li = document.createElement("li");
         li.innerHTML = `
