@@ -1,0 +1,67 @@
+/* Body background color */
+body {
+    background-color: #a6bd0e;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Container background color */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for the student information */
+#student-info {
+    margin-bottom: 20px;
+}
+
+/* Style for the best sellers list */
+#best-sellers-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style for each best sellers list item */
+#best-sellers-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #addc61; /* Item background color */
+}
+
+/* Style for list name */
+.list-name {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000; /* Text color */
+}
+
+/* Style for updated date */
+.updated {
+    color: #010101;
+    margin-bottom: 10px;
+}
+
+/* Style for book title */
+.book-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000; /* Text color */
+}
+
+/* Style for author */
+.author {
+    color: #000000;
+    margin-bottom: 5px;
+}
+
+/* Style for rank */
+.rank {
+    color: #000000;
+}
+
