@@ -1,4 +1,4 @@
-/* Body background color */
+/*background color */
 body {
     background-color: #a6bd0e;
     font-family: 'Times New Roman', Times, serif;
@@ -12,7 +12,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Style for the student information */
+/* Style for student information */
 #student-info {
     margin-bottom: 20px;
 }
